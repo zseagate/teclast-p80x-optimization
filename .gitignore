@@ -1,0 +1,19 @@
+# 设备序列号 / 账号等敏感信息
+*.serial
+*.mac
+*.token
+
+# 直播源清单（含第三方流地址，不公开，见 README 配套项目说明）
+sources/
+deploy/*.m3u
+deploy/*.m3u8
+
+# 截图中的大文件（保留关键成果截图）
+docs/screenshots/*.png
+!docs/screenshots/fongmi-live.png
+!docs/screenshots/tvbox-vod.png
+
+# 临时文件
+*.tmp
+*.log
+.DS_Store
